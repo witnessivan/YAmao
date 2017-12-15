@@ -5,7 +5,7 @@
 int main()
 {
 int i, j, i1, j1, x, k, a, b, b1, a2, b2;
-int min = 2147483647;
+int min = 2500000000;
 
 /* 1 (create massive) */
 printf ("Please, enter size of the massive(a b) \n");
