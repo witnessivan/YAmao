@@ -12,8 +12,8 @@ int main()
     int a = (14 - month) / 12;
     int y = year - a;
     int m = month + 12*a - 2;
-    int dned = (7000 + (day + y + y / 4 - y / 100 + y / 400 + (31 * m) / 12)) % 7;
-    switch(dned)
+    int pink = (7000 + (day + y + y / 4 - y / 100 + y / 400 + (31 * m) / 12)) % 7;
+    switch(pink)
     {
         case 0: printf("Sunday");
             break;
